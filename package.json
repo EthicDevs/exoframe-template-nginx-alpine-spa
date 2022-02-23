@@ -1,0 +1,20 @@
+{
+  "name": "@ethicdevs/exoframe-template-nginx-alpine-spa",
+  "version": "0.1.0",
+  "description": "NGINX (nginx:alpine-stable) deployment template, configured for Single Page Applications routing, for exoframe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "William Nemencha <contact@wnemencha.me>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethicdevs/exoframe-template-nginx-alpine-spa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ethicdevs/exoframe-template-nginx-alpine-spa/issues"
+  },
+  "homepage": "https://github.com/ethicdevs/exoframe-template-nginx-alpine-spa#readme"
+}
