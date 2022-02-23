@@ -1,6 +1,6 @@
 {
   "name": "@ethicdevs/exoframe-template-nginx-alpine-spa",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "NGINX (nginx:alpine-stable) deployment template, configured for Single Page Applications routing, for exoframe",
   "main": "index.js",
   "scripts": {
