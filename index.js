@@ -1,4 +1,3 @@
-// npm packages
 const fs = require("fs");
 const path = require("path");
 
@@ -37,7 +36,7 @@ CMD ["nginx"]
 `;
 
 // template name
-exports.name = "static";
+exports.name = "@ethicdevs/exoframe-template-nginx-alpine-spa";
 
 // function to check if the template fits this recipe
 exports.checkTemplate = async ({ tempDockerDir, folder }) => {
