@@ -28,11 +28,10 @@ const nginxConf = `server {
 }`;
 
 const nginxDockerfile = `FROM nginx:stable-alpine
-COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY . /app
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 RUN chmod -R 755 /app
-
-CMD ["nginx"]
+RUN chmod 755 /etc/nginx/conf.d/default.conf
 `;
 
 // template name
