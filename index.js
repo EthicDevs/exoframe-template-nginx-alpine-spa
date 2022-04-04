@@ -35,7 +35,7 @@ RUN chmod 755 /etc/nginx/conf.d/default.conf
 `;
 
 // template name
-exports.name = "@ethicdevs/exoframe-template-nginx-alpine-spa";
+exports.name = "exoframe-template-nginx-alpine-spa";
 
 // function to check if the template fits this recipe
 exports.checkTemplate = async ({ tempDockerDir, folder }) => {
